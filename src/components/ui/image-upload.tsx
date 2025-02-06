@@ -56,7 +56,7 @@ const ImageUpload: FC<ImageUploadProps> = ({ disabled, onChange, onRemove, value
         </div>
 
         <CldUploadWidget
-            onUpload={onUpload}
+            onSuccess={onUpload}
             uploadPreset="lfxmkzoj"
         >
             {
